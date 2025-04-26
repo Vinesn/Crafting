@@ -5,7 +5,7 @@ public class ButtonController : MonoBehaviour
 {
     TMP_Text textArea;
     public GameObject textAreaPrefab;
-    public int randomLiczba = 0;
+    public int randomLiczba;
     [SerializeField] Transform spawnPoint;
 
     private void Awake()
